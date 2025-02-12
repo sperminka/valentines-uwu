@@ -1,0 +1,44 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.question {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 0px rgb(238, 107, 129), -2px -2px 0px #f5bbc4,
+    2px -2px 0px pink, -2px 2px 0px pink;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+.yesButton,
+.noButton {
+  background-color: #f19ba9; /* Hot pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.yesButton:hover,
+.noButton:hover {
+  background-color: #e77084; /* Deeper pink */
+  transform: scale(1.1);
+}
+.text {
+  font-size: 36px; /* Increase size */
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 0px rgb(238, 107, 129), -2px -2px 0px #f5bbc4,
+    2px -2px 0px pink, -2px 2px 0px pink;
+  text-align: center;
+  margin-top: 20px;
+}
